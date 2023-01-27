@@ -1,24 +1,24 @@
 {
-    "name": "laravel-enso/calendar",
+    "name": "cgdsoftware/calendar",
     "type": "library",
     "description": "Enso Calendar",
     "authors": [
         {
             "name": "Adrian Ocneanu",
             "email": "aocneanu@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         },
         {
             "name": "Reza Fouladi",
             "email": "raftx24@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         },
         {
             "name": "Mihai Ocneanu",
             "email": "mihai.ocneanu@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         }
     ],
@@ -27,20 +27,20 @@
         "events",
         "reminders",
         "laravel",
-        "laravel-enso"
+        "cgdsoftware"
     ],
-    "homepage": "https://https://github.com/laravel-enso/calendar",
+    "homepage": "https://https://github.com/cgdsoftware/calendar",
     "require": {
-        "laravel-enso/core": "^8.0",
-        "laravel-enso/enums": "^2.0",
-        "laravel-enso/forms": "^4.0",
-        "laravel-enso/people": "^4.0",
-        "laravel-enso/helpers": "^2.0",
-        "laravel-enso/select": "^4.0",
-        "laravel-enso/permissions": "^5.0",
-        "laravel-enso/track-who": "^2.0",
-        "laravel-enso/rememberable": "^3.0",
-        "laravel-enso/migrator": "^2.1"
+        "cgdsoftware/core": "^8.0",
+        "cgdsoftware/enums": "^2.0",
+        "cgdsoftware/forms": "^4.0",
+        "cgdsoftware/people": "^4.0",
+        "cgdsoftware/helpers": "^2.0",
+        "cgdsoftware/select": "^4.0",
+        "cgdsoftware/permissions": "^5.0",
+        "cgdsoftware/track-who": "^2.0",
+        "cgdsoftware/rememberable": "^3.0",
+        "cgdsoftware/migrator": "^2.1"
     },
     "autoload": {
         "psr-4": {
