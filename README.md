@@ -6,10 +6,10 @@
 [![Total Downloads](https://poser.pugx.org/laravel-enso/calendar/downloads)](https://packagist.org/packages/laravel-enso/calendar)
 [![Latest Stable Version](https://poser.pugx.org/laravel-enso/calendar/version)](https://packagist.org/packages/laravel-enso/calendar)
 
-Calendar is a Laravel Enso package designed for the management of 
+Calendar is a Laravel Liberu package designed for the management of 
 calendars and calendar events
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-enso/Liberu) ecosystem.
 
 For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
 
