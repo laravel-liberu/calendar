@@ -28,10 +28,9 @@ class Event extends Model implements ProvidesEvent
 
     protected $casts = [
         'is_all_day' => 'boolean', 'parent_id' => 'integer', 'calendar_id' => 'integer',
-        'frequency' => 'integer', 'created_by' => 'integer',
+        'frequency' => 'integer', 'created_by' => 'integer', 'start_date' => 'datetime', 
+        'end_date' => 'datetime', 'recurrence_ends_at'  => 'datetime'
     ];
-
-    protected $dates = ['start_date', 'end_date', 'recurrence_ends_at'];
 
     public function parent()
     {

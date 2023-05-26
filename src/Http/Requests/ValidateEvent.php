@@ -97,17 +97,21 @@ class ValidateEvent extends FormRequest
         );
     }
 
-    private function after($validator)
+    public function after()
     {
-        if ($this->has('start_date') && $this->predatesSubsequence()) {
-            $validator->errors()
-                ->add('start_date', "You can't predate a subsequence of events");
-        }
+        return [
+            function ($validator) {
+                if ($this->has('start_date') && $this->predatesSubsequence()) {
+                    $validator->errors()
+                        ->add('start_date', "You can't predate a subsequence of events");
+                }
 
-        if ($this->oneWithRecurrence()) {
-            $validator->errors()
-                ->add('recurrence_ends_at', "You can't have recurrence on singular events");
-        }
+                if ($this->oneWithRecurrence()) {
+                    $validator->errors()
+                        ->add('recurrence_ends_at', "You can't have recurrence on singular events");
+                }
+            }
+        ];
     }
 
     private function predatesSubsequence(): bool
