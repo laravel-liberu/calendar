@@ -207,8 +207,7 @@ class Event extends Model implements ProvidesEvent
 
     public function getDates()
     {
-
-        $dateFields = array_filter($this->casts, fn ($key) => $this->isDateCastable($key) , ARRAY_FILTER_USE_KEY);
+        $dateFields = array_keys(array_filter($this->casts, fn ($key) => $this->isDateCastable($key), ARRAY_FILTER_USE_KEY));
 
         if (! $this->usesTimestamps()) {
             return $dateFields;
