@@ -204,4 +204,21 @@ class Event extends Model implements ProvidesEvent
             $this->save();
         });
     }
+
+    public function getDates()
+    {
+
+        $dateFields = array_filter($this->casts, fn ($key) => $this->isDateCastable($key) , ARRAY_FILTER_USE_KEY);
+
+        if (! $this->usesTimestamps()) {
+            return $dateFields;
+        }
+
+        $defaults = [
+            $this->getCreatedAtColumn(),
+            $this->getUpdatedAtColumn(),
+        ];
+
+        return array_unique(array_merge($dateFields, $defaults));
+    }
 }
