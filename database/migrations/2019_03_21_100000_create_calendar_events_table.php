@@ -15,7 +15,7 @@ return new class extends Migration
 
             $table->integer('calendar_id')->unsigned()->index();
             $table->foreign('calendar_id')->index()
-                ->references('id')->on('calendars')->onDelete('cascade');
+                ->references('id')->on('calendars')->name('calendar_events_calendar_id_foreign')->onDelete('cascade');
 
             $table->string('title');
             $table->text('body')->nullable();
