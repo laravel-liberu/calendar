@@ -13,8 +13,7 @@ return new class extends Migration
             $table->foreign('event_id')->references('id')->on('calendar_events')
                 ->onUpdate('cascade')->onDelete('cascade');
 
-            $table->integer('user_id')->unsigned()->index();
-            $table->foreign('user_id')->references('id')->on('users')
+            $table->foreignId('user_id')->constrained()->index()->name('calendar_event_user_foreign')
                 ->onUpdate('cascade')->onDelete('cascade');
 
             $table->primary(['event_id', 'user_id']);

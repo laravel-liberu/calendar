@@ -15,8 +15,7 @@ return new class extends Migration
             $table->string('color');
             $table->boolean('private');
 
-            $table->integer('created_by')->unsigned()->index()->nullable();
-            $table->foreign('created_by')->references('id')->on('users');
+            $table->foreignId('created_by')->nullable()->constrained('users')->index()->name('calendars_created_by_foreign');
 
             $table->timestamps();
         });

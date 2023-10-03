@@ -15,8 +15,7 @@ return new class extends Migration
             $table->foreign('event_id')->references('id')->on('calendar_events')
                 ->onDelete('cascade');
 
-            $table->integer('created_by')->unsigned()->index();
-            $table->foreign('created_by')->references('id')->on('users');
+                $table->foreignId('created_by')->nullable()->constrained('users')->index()->name('calendar_reminders_created_by_foreign');
 
             $table->datetime('scheduled_at')->index();
             $table->datetime('sent_at')->nullable()->index();
