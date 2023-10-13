@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Calendar\Http\Requests;
+namespace LaravelLiberu\Calendar\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use LaravelEnso\Calendar\Enums\Frequencies;
-use LaravelEnso\Calendar\Enums\UpdateType;
+use LaravelLiberu\Calendar\Enums\Frequencies;
+use LaravelLiberu\Calendar\Enums\UpdateType;
 
 class ValidateEventDestroy extends FormRequest
 {

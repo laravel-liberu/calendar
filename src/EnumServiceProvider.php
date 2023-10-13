@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Calendar;
+namespace LaravelLiberu\Calendar;
 
-use LaravelEnso\Calendar\Enums\Frequencies;
-use LaravelEnso\Calendar\Enums\UpdateType;
-use LaravelEnso\Enums\EnumServiceProvider as ServiceProvider;
+use LaravelLiberu\Calendar\Enums\Frequencies;
+use LaravelLiberu\Calendar\Enums\UpdateType;
+use LaravelLiberu\Enums\EnumServiceProvider as ServiceProvider;
 
 class EnumServiceProvider extends ServiceProvider
 {

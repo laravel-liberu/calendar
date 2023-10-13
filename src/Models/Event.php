@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Calendar\Models;
+namespace LaravelLiberu\Calendar\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
@@ -8,15 +8,15 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
-use LaravelEnso\Calendar\Contracts\Calendar as CalendarContract;
-use LaravelEnso\Calendar\Contracts\ProvidesEvent;
-use LaravelEnso\Calendar\Enums\Frequencies;
-use LaravelEnso\Calendar\Services\Frequency\Create;
-use LaravelEnso\Calendar\Services\Frequency\Delete;
-use LaravelEnso\Calendar\Services\Frequency\Update;
-use LaravelEnso\Rememberable\Traits\Rememberable;
-use LaravelEnso\TrackWho\Traits\CreatedBy;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Calendar\Contracts\Calendar as CalendarContract;
+use LaravelLiberu\Calendar\Contracts\ProvidesEvent;
+use LaravelLiberu\Calendar\Enums\Frequencies;
+use LaravelLiberu\Calendar\Services\Frequency\Create;
+use LaravelLiberu\Calendar\Services\Frequency\Delete;
+use LaravelLiberu\Calendar\Services\Frequency\Update;
+use LaravelLiberu\Rememberable\Traits\Rememberable;
+use LaravelLiberu\TrackWho\Traits\CreatedBy;
+use LaravelLiberu\Users\Models\User;
 
 class Event extends Model implements ProvidesEvent
 {

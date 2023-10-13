@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Calendar\Http\Controllers\Events;
+namespace LaravelLiberu\Calendar\Http\Controllers\Events;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Routing\Controller;
-use LaravelEnso\Calendar\Forms\Builders\Event as Form;
-use LaravelEnso\Calendar\Models\Event;
+use LaravelLiberu\Calendar\Forms\Builders\Event as Form;
+use LaravelLiberu\Calendar\Models\Event;
 
 class Edit extends Controller
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Calendar\Contracts;
+namespace LaravelLiberu\Calendar\Contracts;
 
 interface Calendar
 {

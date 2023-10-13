@@ -44,18 +44,18 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\Calendar\\": "src/",
-            "LaravelEnso\\Calendar\\Database\\Factories\\": "database/factories/"
+            "LaravelLiberu\\Calendar\\": "src/",
+            "LaravelLiberu\\Calendar\\Database\\Factories\\": "database/factories/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelEnso\\Calendar\\AppServiceProvider",
-                "LaravelEnso\\Calendar\\AuthServiceProvider",
-                "LaravelEnso\\Calendar\\CalendarServiceProvider",
-                "LaravelEnso\\Calendar\\EnumServiceProvider",
-                "LaravelEnso\\Calendar\\UserServiceProvider"
+                "LaravelLiberu\\Calendar\\AppServiceProvider",
+                "LaravelLiberu\\Calendar\\AuthServiceProvider",
+                "LaravelLiberu\\Calendar\\CalendarServiceProvider",
+                "LaravelLiberu\\Calendar\\EnumServiceProvider",
+                "LaravelLiberu\\Calendar\\UserServiceProvider"
             ]
         }
     },

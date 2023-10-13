@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Calendar\Services\Frequency;
+namespace LaravelLiberu\Calendar\Services\Frequency;
 
-use LaravelEnso\Calendar\Enums\UpdateType;
-use LaravelEnso\Calendar\Models\Event;
-use LaravelEnso\Calendar\Services\Sequence;
+use LaravelLiberu\Calendar\Enums\UpdateType;
+use LaravelLiberu\Calendar\Models\Event;
+use LaravelLiberu\Calendar\Services\Sequence;
 
 class Update
 {

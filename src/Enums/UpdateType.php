@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Calendar\Enums;
+namespace LaravelLiberu\Calendar\Enums;
 
-use LaravelEnso\Enums\Services\Enum;
+use LaravelLiberu\Enums\Services\Enum;
 
 class UpdateType extends Enum
 {

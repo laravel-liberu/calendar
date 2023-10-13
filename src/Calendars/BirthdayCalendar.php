@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelEnso\Calendar\Calendars;
+namespace LaravelLiberu\Calendar\Calendars;
 
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\Calendar\Contracts\CustomCalendar;
-use LaravelEnso\Calendar\Enums\Colors;
-use LaravelEnso\People\Models\Person;
+use LaravelLiberu\Calendar\Contracts\CustomCalendar;
+use LaravelLiberu\Calendar\Enums\Colors;
+use LaravelLiberu\People\Models\Person;
 
 class BirthdayCalendar implements CustomCalendar
 {

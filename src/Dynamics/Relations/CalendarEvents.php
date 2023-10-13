@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Calendar\Dynamics\Relations;
+namespace LaravelLiberu\Calendar\Dynamics\Relations;
 
 use Closure;
-use LaravelEnso\Calendar\Models\Event;
-use LaravelEnso\DynamicMethods\Contracts\Method;
+use LaravelLiberu\Calendar\Models\Event;
+use LaravelLiberu\DynamicMethods\Contracts\Method;
 
 class CalendarEvents implements Method
 {

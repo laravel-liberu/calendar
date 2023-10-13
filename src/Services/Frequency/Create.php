@@ -1,15 +1,15 @@
 <?php
 
-namespace LaravelEnso\Calendar\Services\Frequency;
+namespace LaravelLiberu\Calendar\Services\Frequency;
 
-use LaravelEnso\Calendar\Enums\Frequencies;
-use LaravelEnso\Calendar\Models\Event;
-use LaravelEnso\Calendar\Services\Frequency\Repeats\Daily;
-use LaravelEnso\Calendar\Services\Frequency\Repeats\Monthly;
-use LaravelEnso\Calendar\Services\Frequency\Repeats\Once;
-use LaravelEnso\Calendar\Services\Frequency\Repeats\Weekday;
-use LaravelEnso\Calendar\Services\Frequency\Repeats\Weekly;
-use LaravelEnso\Calendar\Services\Frequency\Repeats\Yearly;
+use LaravelLiberu\Calendar\Enums\Frequencies;
+use LaravelLiberu\Calendar\Models\Event;
+use LaravelLiberu\Calendar\Services\Frequency\Repeats\Daily;
+use LaravelLiberu\Calendar\Services\Frequency\Repeats\Monthly;
+use LaravelLiberu\Calendar\Services\Frequency\Repeats\Once;
+use LaravelLiberu\Calendar\Services\Frequency\Repeats\Weekday;
+use LaravelLiberu\Calendar\Services\Frequency\Repeats\Weekly;
+use LaravelLiberu\Calendar\Services\Frequency\Repeats\Yearly;
 
 class Create
 {

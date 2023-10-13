@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Calendar\Forms\Builders;
+namespace LaravelLiberu\Calendar\Forms\Builders;
 
-use LaravelEnso\Calendar\Enums\Frequencies;
-use LaravelEnso\Calendar\Http\Resources\Reminder;
-use LaravelEnso\Calendar\Models\Event as Model;
-use LaravelEnso\Forms\Services\Form;
+use LaravelLiberu\Calendar\Enums\Frequencies;
+use LaravelLiberu\Calendar\Http\Resources\Reminder;
+use LaravelLiberu\Calendar\Models\Event as Model;
+use LaravelLiberu\Forms\Services\Form;
 
 class Event
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Calendar\Contracts;
+namespace LaravelLiberu\Calendar\Contracts;
 
-use LaravelEnso\Calendar\DTOs\Route;
+use LaravelLiberu\Calendar\DTOs\Route;
 
 interface Routable
 {

@@ -3,11 +3,11 @@
 use Carbon\Carbon;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\Calendar\Calendars\BirthdayCalendar;
-use LaravelEnso\Calendar\Enums\Colors;
-use LaravelEnso\Calendar\Models\Calendar;
-use LaravelEnso\People\Models\Person;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Calendar\Calendars\BirthdayCalendar;
+use LaravelLiberu\Calendar\Enums\Colors;
+use LaravelLiberu\Calendar\Models\Calendar;
+use LaravelLiberu\People\Models\Person;
+use LaravelLiberu\Users\Models\User;
 use Tests\TestCase;
 
 class CalendarTest extends TestCase

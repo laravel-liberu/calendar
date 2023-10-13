@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Calendar\Http\Resources;
+namespace LaravelLiberu\Calendar\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
-use LaravelEnso\Calendar\Contracts\Routable;
-use LaravelEnso\Calendar\Models\Event as EventModel;
+use LaravelLiberu\Calendar\Contracts\Routable;
+use LaravelLiberu\Calendar\Models\Event as EventModel;
 
 class Event extends JsonResource
 {

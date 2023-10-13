@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Calendar\Policies;
+namespace LaravelLiberu\Calendar\Policies;
 
 use Illuminate\Auth\Access\HandlesAuthorization;
-use LaravelEnso\Calendar\Contracts\Calendar as Contract;
-use LaravelEnso\Calendar\Models\Calendar;
+use LaravelLiberu\Calendar\Contracts\Calendar as Contract;
+use LaravelLiberu\Calendar\Models\Calendar;
 
 class CalendarPolicy
 {

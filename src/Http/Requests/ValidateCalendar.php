@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Calendar\Http\Requests;
+namespace LaravelLiberu\Calendar\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use LaravelEnso\Calendar\Enums\Colors;
+use LaravelLiberu\Calendar\Enums\Colors;
 
 class ValidateCalendar extends FormRequest
 {

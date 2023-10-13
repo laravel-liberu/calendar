@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Calendar\Http\Controllers\Calendar;
+namespace LaravelLiberu\Calendar\Http\Controllers\Calendar;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Calendar\Facades\Calendars;
-use LaravelEnso\Calendar\Http\Resources\Calendar;
+use LaravelLiberu\Calendar\Facades\Calendars;
+use LaravelLiberu\Calendar\Http\Resources\Calendar;
 
 class Index extends Controller
 {

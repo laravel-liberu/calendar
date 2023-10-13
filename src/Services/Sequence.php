@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Calendar\Services;
+namespace LaravelLiberu\Calendar\Services;
 
-use LaravelEnso\Calendar\Enums\Frequencies;
-use LaravelEnso\Calendar\Models\Event;
+use LaravelLiberu\Calendar\Enums\Frequencies;
+use LaravelLiberu\Calendar\Models\Event;
 
 class Sequence
 {

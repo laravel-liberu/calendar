@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Calendar\Models;
+namespace LaravelLiberu\Calendar\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use LaravelEnso\Calendar\Contracts\Calendar as Contract;
-use LaravelEnso\Rememberable\Traits\Rememberable;
-use LaravelEnso\TrackWho\Traits\CreatedBy;
+use LaravelLiberu\Calendar\Contracts\Calendar as Contract;
+use LaravelLiberu\Rememberable\Traits\Rememberable;
+use LaravelLiberu\TrackWho\Traits\CreatedBy;
 
 class Calendar extends Model implements Contract
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Calendar\Database\Factories;
+namespace LaravelLiberu\Calendar\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use LaravelEnso\Calendar\Enums\Colors;
-use LaravelEnso\Calendar\Models\Calendar;
+use LaravelLiberu\Calendar\Enums\Colors;
+use LaravelLiberu\Calendar\Models\Calendar;
 
 class CalendarFactory extends Factory
 {

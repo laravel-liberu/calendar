@@ -1,16 +1,16 @@
 <?php
 
-namespace LaravelEnso\Calendar\Http\Responses;
+namespace LaravelLiberu\Calendar\Http\Responses;
 
 use Carbon\Carbon;
 use Illuminate\Contracts\Support\Responsable;
 use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
-use LaravelEnso\Calendar\Contracts\CustomCalendar;
-use LaravelEnso\Calendar\Facades\Calendars;
-use LaravelEnso\Calendar\Http\Resources\Event as Resource;
-use LaravelEnso\Calendar\Models\Calendar;
-use LaravelEnso\Calendar\Models\Event;
+use LaravelLiberu\Calendar\Contracts\CustomCalendar;
+use LaravelLiberu\Calendar\Facades\Calendars;
+use LaravelLiberu\Calendar\Http\Resources\Event as Resource;
+use LaravelLiberu\Calendar\Models\Calendar;
+use LaravelLiberu\Calendar\Models\Event;
 
 class Events implements Responsable
 {

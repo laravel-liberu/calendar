@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Calendar\Commands;
+namespace LaravelLiberu\Calendar\Commands;
 
 use Illuminate\Console\Command;
-use LaravelEnso\Calendar\Models\Reminder;
+use LaravelLiberu\Calendar\Models\Reminder;
 
 class SendReminders extends Command
 {

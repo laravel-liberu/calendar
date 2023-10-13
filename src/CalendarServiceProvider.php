@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Calendar;
+namespace LaravelLiberu\Calendar;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\Calendar\Facades\Calendars;
+use LaravelLiberu\Calendar\Facades\Calendars;
 
 class CalendarServiceProvider extends ServiceProvider
 {

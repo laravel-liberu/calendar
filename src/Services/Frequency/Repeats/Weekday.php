@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Calendar\Services\Frequency\Repeats;
+namespace LaravelLiberu\Calendar\Services\Frequency\Repeats;
 
 use Illuminate\Support\Collection;
 

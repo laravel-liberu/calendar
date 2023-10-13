@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Calendar;
+namespace LaravelLiberu\Calendar;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\Calendar\Commands\SendReminders;
-use LaravelEnso\Calendar\Services\Calendars;
+use LaravelLiberu\Calendar\Commands\SendReminders;
+use LaravelLiberu\Calendar\Services\Calendars;
 
 class AppServiceProvider extends ServiceProvider
 {

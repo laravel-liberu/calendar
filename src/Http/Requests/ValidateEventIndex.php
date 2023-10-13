@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Calendar\Http\Requests;
+namespace LaravelLiberu\Calendar\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use LaravelEnso\Calendar\Facades\Calendars;
+use LaravelLiberu\Calendar\Facades\Calendars;
 
 class ValidateEventIndex extends FormRequest
 {

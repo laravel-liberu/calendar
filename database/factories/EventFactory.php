@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Calendar\Database\Factories;
+namespace LaravelLiberu\Calendar\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use LaravelEnso\Calendar\Enums\Frequencies;
-use LaravelEnso\Calendar\Models\Calendar;
-use LaravelEnso\Calendar\Models\Event;
+use LaravelLiberu\Calendar\Enums\Frequencies;
+use LaravelLiberu\Calendar\Models\Calendar;
+use LaravelLiberu\Calendar\Models\Event;
 
 class EventFactory extends Factory
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Calendar\Database\Factories;
+namespace LaravelLiberu\Calendar\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use LaravelEnso\Calendar\Models\Event;
-use LaravelEnso\Calendar\Models\Reminder;
+use LaravelLiberu\Calendar\Models\Event;
+use LaravelLiberu\Calendar\Models\Reminder;
 
 class ReminderFactory extends Factory
 {

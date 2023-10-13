@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Calendar\Http\Controllers\Calendar;
+namespace LaravelLiberu\Calendar\Http\Controllers\Calendar;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Routing\Controller;
-use LaravelEnso\Calendar\Http\Requests\ValidateCalendar;
-use LaravelEnso\Calendar\Http\Resources\Calendar as Resource;
-use LaravelEnso\Calendar\Models\Calendar;
+use LaravelLiberu\Calendar\Http\Requests\ValidateCalendar;
+use LaravelLiberu\Calendar\Http\Resources\Calendar as Resource;
+use LaravelLiberu\Calendar\Models\Calendar;
 
 class Update extends Controller
 {

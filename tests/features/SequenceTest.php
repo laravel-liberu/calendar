@@ -2,10 +2,10 @@
 
 use Carbon\Carbon;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use LaravelEnso\Calendar\Enums\Frequencies;
-use LaravelEnso\Calendar\Enums\UpdateType;
-use LaravelEnso\Calendar\Models\Event;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Calendar\Enums\Frequencies;
+use LaravelLiberu\Calendar\Enums\UpdateType;
+use LaravelLiberu\Calendar\Models\Event;
+use LaravelLiberu\Users\Models\User;
 use Tests\TestCase;
 
 class SequenceTest extends TestCase

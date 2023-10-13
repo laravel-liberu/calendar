@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Calendar;
+namespace LaravelLiberu\Calendar;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\Calendar\Dynamics\Relations\CalendarEvents;
-use LaravelEnso\Calendar\Dynamics\Relations\Calendars;
-use LaravelEnso\DynamicMethods\Services\Methods;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Calendar\Dynamics\Relations\CalendarEvents;
+use LaravelLiberu\Calendar\Dynamics\Relations\Calendars;
+use LaravelLiberu\DynamicMethods\Services\Methods;
+use LaravelLiberu\Users\Models\User;
 
 class UserServiceProvider extends ServiceProvider
 {

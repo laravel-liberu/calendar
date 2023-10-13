@@ -1,12 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Calendar\Http\Controllers\Events\Create;
-use LaravelEnso\Calendar\Http\Controllers\Events\Destroy;
-use LaravelEnso\Calendar\Http\Controllers\Events\Edit;
-use LaravelEnso\Calendar\Http\Controllers\Events\Index;
-use LaravelEnso\Calendar\Http\Controllers\Events\Store;
-use LaravelEnso\Calendar\Http\Controllers\Events\Update;
+use LaravelLiberu\Calendar\Http\Controllers\Events\Create;
+use LaravelLiberu\Calendar\Http\Controllers\Events\Destroy;
+use LaravelLiberu\Calendar\Http\Controllers\Events\Edit;
+use LaravelLiberu\Calendar\Http\Controllers\Events\Index;
+use LaravelLiberu\Calendar\Http\Controllers\Events\Store;
+use LaravelLiberu\Calendar\Http\Controllers\Events\Update;
 
 Route::prefix('events')
     ->as('events.')
