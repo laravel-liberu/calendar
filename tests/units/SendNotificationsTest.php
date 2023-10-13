@@ -34,7 +34,7 @@ class SendNotificationsTest extends TestCase
             'created_by' => $this->user->id,
         ]);
 
-        $this->artisan('enso:calendar:send-reminders');
+        $this->artisan('liberu:calendar:send-reminders');
 
         Notification::assertNothingSent();
     }
@@ -50,7 +50,7 @@ class SendNotificationsTest extends TestCase
             'created_by' => $this->user->id,
         ]);
 
-        $this->artisan('enso:calendar:send-reminders');
+        $this->artisan('liberu:calendar:send-reminders');
 
         Notification::assertSentTo(
             config('auth.providers.users.model')::find($this->user->id),

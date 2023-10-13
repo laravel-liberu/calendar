@@ -27,11 +27,11 @@ class AppServiceProvider extends ServiceProvider
     {
         $this->loadRoutesFrom(__DIR__.'/../routes/api.php');
 
-        $this->mergeConfigFrom(__DIR__.'/../config/calendar.php', 'enso.calendar');
+        $this->mergeConfigFrom(__DIR__.'/../config/calendar.php', 'liberu.calendar');
 
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
 
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'laravel-enso/calendar');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'laravel-liberu/calendar');
 
         return $this;
     }
@@ -55,7 +55,7 @@ class AppServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__.'/../database/factories' => database_path('factories'),
-        ], 'enso-factories');
+        ], 'liberu-factories');
 
         return $this;
     }
@@ -63,12 +63,12 @@ class AppServiceProvider extends ServiceProvider
     private function publishMail()
     {
         $this->publishes([
-            __DIR__.'/../resources/views' => resource_path('views/vendor/laravel-enso/calendar'),
+            __DIR__.'/../resources/views' => resource_path('views/vendor/laravel-liberu/calendar'),
         ], 'calendar-mail');
 
         $this->publishes([
-            __DIR__.'/../resources/views' => resource_path('views/vendor/laravel-enso/calendar'),
-        ], 'enso-mail');
+            __DIR__.'/../resources/views' => resource_path('views/vendor/laravel-liberu/calendar'),
+        ], 'liberu-mail');
 
         return $this;
     }
@@ -76,8 +76,8 @@ class AppServiceProvider extends ServiceProvider
     private function publishConfig()
     {
         $this->publishes([
-            __DIR__.'/../config' => config_path('enso'),
-        ], ['enso-config', 'calendar-config']);
+            __DIR__.'/../config' => config_path('liberu'),
+        ], ['liberu-config', 'calendar-config']);
 
         return $this;
     }
@@ -87,6 +87,6 @@ class AppServiceProvider extends ServiceProvider
         $this->commands(SendReminders::class);
 
         $this->app->booted(fn () => $this->app->make(Schedule::class)
-            ->command('enso:calendar:send-reminders')->everyMinute());
+            ->command('liberu:calendar:send-reminders')->everyMinute());
     }
 }

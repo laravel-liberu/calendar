@@ -42,7 +42,7 @@ class CalendarTest extends TestCase
     /** @test */
     public function can_limit_birthday_calendar_roles()
     {
-        Config::set('enso.calendar.birthdays.roles', []);
+        Config::set('liberu.calendar.birthdays.roles', []);
 
         $this->assertEmpty((new BirthdayCalendar())
             ->events(Person::first()->birthday, Person::first()->birthday->addDay()));

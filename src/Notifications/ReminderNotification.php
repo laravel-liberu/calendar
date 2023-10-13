@@ -39,7 +39,7 @@ class ReminderNotification extends Notification implements ShouldQueue
 
         return (new MailMessage())
             ->subject("[ {$app} ] {$this->subject()}")
-            ->markdown('laravel-enso/calendar::emails.reminder', [
+            ->markdown('laravel-liberu/calendar::emails.reminder', [
                 'appellative' => $this->reminder->createdBy->person->appellative,
                 'url' => url('/calendar'),
                 'title' => $this->reminder->event->title,

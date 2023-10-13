@@ -21,7 +21,7 @@ class Event extends JsonResource
             'location' => $this->location(),
             'frequency' => $this->frequency(),
             'recurrenceEnds' => $this->recurrenceEnds()
-                ?->format(config('enso.config.dateFormat')),
+                ?->format(config('liberu.config.dateFormat')),
             'allDay' => $this->allDay(),
             'readonly' => $this->readonly(),
             'class' => $this->getCalendar()->color(),
