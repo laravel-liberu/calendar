@@ -1,7 +1,7 @@
 {
     "name": "laravel-liberu/calendar",
     "type": "library",
-    "description": "Enso Calendar",
+    "description": "Liberu Calendar",
     "authors": [
         {
             "name": "Adrian Ocneanu",
